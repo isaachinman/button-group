@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Button Group Example</title>
+  <meta name="author" content="Isaac Hinman">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
+  <link rel="stylesheet" href="button-group.css">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <div class='button-group-wrapper'>
+    <div class='button-group'>
+      <ul>
+        <li class='active' data-target='#1'>First</li>
+        <li data-target='#2'>Second</li>
+        <li data-target='#3'>Third</li>
+        <li data-target='#4'>Fourth</li>
+        <li data-target='#5'>Fifth</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id='1-tab' class='tab'>
+    First tab content
+  </div>
+
+  <div id='2-tab' class='tab'>
+    Second tab content
+  </div>
+
+  <div id='3-tab' class='tab'>
+    Third tab content
+  </div>
+
+  <div id='4-tab' class='tab'>
+    Fourth tab content
+  </div>
+
+  <div id='5-tab' class='tab'>
+    Fifth tab content
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+  <script src="button-group.js"></script>
+</body>
+</html>
